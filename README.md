@@ -30,7 +30,7 @@ If using Rails, add an initializer `config/initializers/omniauth.rb`:
 
 ```ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider('bitbucket', 'BITBUCKET_KEY', 'BITBUCKET_SECRET')
+  provider :bitbucket, 'BITBUCKET_KEY', 'BITBUCKET_SECRET'
 end
 ```
 
