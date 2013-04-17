@@ -1,8 +1,8 @@
 # OmniAuth Bitbucket
 
-This is the OmniAuth strategy for authenticating to Bitbucket. To
-use it, you'll need to sign up for an OAuth consumer key and Secret
-by sending emails to [Bitbucket Support](mailto:support@bitbucket.org).
+This is the OmniAuth strategy for authenticating to [Bitbucket](https://bitbucket.org). 
+To use it, you'll need to signup and create a new application or use your 
+existing OAuth consumer and secret keys.
 
 ## Install
 
