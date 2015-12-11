@@ -1,15 +1,14 @@
-require 'omniauth-oauth'
+require 'omniauth-oauth2'
 
 module OmniAuth
   module Strategies
-    class Bitbucket < OmniAuth::Strategies::OAuth
+    class Bitbucket < OmniAuth::Strategies::OAuth2
       # This is where you pass the options you would pass when
       # initializing your consumer from the OAuth gem.
       option :client_options, {
         :site => 'https://bitbucket.org',
-        :request_token_path => '/api/1.0/oauth/request_token',
-        :authorize_path     => '/api/1.0/oauth/authenticate',
-        :access_token_path  => '/api/1.0/oauth/access_token'
+        :authorize_url     => 'https://bitbucket.org/site/oauth2/authorize',
+        :token_url  => 'https://bitbucket.org/site/oauth2/access_token'
       }
 
       # These are called after authentication has succeeded. If

@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 
   # specify any dependencies here; for example:
   s.add_dependency 'omniauth', '~> 1.1'
-  s.add_dependency 'omniauth-oauth', '~> 1.0'
+  s.add_dependency 'omniauth-oauth2', '>= 1.1.1', '< 2.0'
   s.add_dependency 'multi_json', '~> 1.7'
 
   s.add_development_dependency 'rspec', '~> 2.7'
