@@ -4,6 +4,8 @@ This is the OmniAuth strategy for authenticating to [Bitbucket](https://bitbucke
 To use it, you'll need to signup and create a new application or use your 
 existing OAuth consumer and secret keys.
 
+At a minimum, your BitBucket OAuth scopes must be set to `email,repository` for the OAuth flow to complete.
+
 ## Install
 
 Add dependency to your Gemfile:
